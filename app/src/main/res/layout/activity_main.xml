@@ -7,11 +7,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewLetterGrade"
         android:layout_width="113dp"
         android:layout_height="27dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:onClick="onClick"
         android:text="@string/LetterGradeVal"
         app:layout_constraintStart_toEndOf="@+id/textViewLetterGradeLabel"
         app:layout_constraintTop_toBottomOf="@+id/textViewAverage" />
@@ -22,6 +23,7 @@
         android:layout_height="36dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
+        android:onClick="onClick"
         android:text="@string/Average"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewAverageLabel"
@@ -37,6 +39,7 @@
         android:ems="10"
         android:hint="@string/testOneHint"
         android:inputType="text"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.674"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,6 +55,7 @@
         android:ems="10"
         android:hint="@string/TestTwo"
         android:inputType="text"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.621"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,6 +71,7 @@
         android:ems="10"
         android:hint="@string/TestThreeHint"
         android:inputType="text"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextScore2" />
