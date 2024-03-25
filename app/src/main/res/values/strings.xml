@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="testOneHint">Enter Test 1 Score</string>
+    <string name="TestTwo">Enter Test 2 Score</string>
+    <string name="TestThreeHint">Enter Test 3 Score</string>
+    <string name="AverageLabel">Average:</string>
+    <string name="Average">0.00</string>
+    <string name="LetterGrade">Letter Grade:</string>
+    <string name="LetterGradeVal">F</string>
 </resources>
