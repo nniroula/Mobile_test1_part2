@@ -8,23 +8,29 @@
 
     <TextView
         android:id="@+id/textViewLetterGrade"
-        android:layout_width="113dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="135dp"
         android:onClick="onClick"
         android:text="@string/LetterGradeVal"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textViewLetterGradeLabel"
         app:layout_constraintTop_toBottomOf="@+id/textViewAverage" />
 
     <TextView
         android:id="@+id/textViewAverage"
         android:layout_width="110dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="128dp"
         android:onClick="onClick"
         android:text="@string/Average"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewAverageLabel"
         app:layout_constraintTop_toBottomOf="@+id/editTextScore3" />
@@ -34,14 +40,14 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:hint="@string/testOneHint"
         android:inputType="text"
         android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,14 +56,14 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:hint="@string/TestTwo"
         android:inputType="text"
         android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextScore1" />
 
@@ -78,24 +84,27 @@
 
     <TextView
         android:id="@+id/textViewAverageLabel"
-        android:layout_width="73dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="61dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="28dp"
         android:text="@string/AverageLabel"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/textViewAverage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextScore3" />
 
     <TextView
         android:id="@+id/textViewLetterGradeLabel"
-        android:layout_width="98dp"
-        android:layout_height="29dp"
+        android:layout_width="85dp"
+        android:layout_height="28dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/LetterGrade"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintHorizontal_bias="0.141"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewAverageLabel" />
 
