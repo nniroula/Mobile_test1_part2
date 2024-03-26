@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     /* declare other variables */
     private double avg;
     private String grade;
+    private double testOneScore;
+    private double testTwoScore;
+    private double testThreeScore;
 
     /* variables for storing view ids */
     private EditText editTextScore1;
@@ -27,9 +30,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTextScore3;
     private TextView textViewAverage;
     private TextView textViewLetterGrade;
-    private double testOneScore;
-    private double testTwoScore;
-    private double testThreeScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
